@@ -1,11 +1,21 @@
 {
   "name": "pubsub",
   "version": "1.0.0",
-  "description": "",
+  "description": "none",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Greg Griffin",
+  "license": "MIT",
+  "dependencies": {
+    "axon": "^2.0.3",
+    "express": "^4.15.3",
+    "redis": "^2.7.1",
+    "underscore": "^1.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anycoloryoulike/pubsub.git"
+  }
 }
